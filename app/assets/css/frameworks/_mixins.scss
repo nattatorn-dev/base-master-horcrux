@@ -1,0 +1,13 @@
+@mixin circle($width, $background, $border) {
+  width: $width;
+  height: $width;
+  background: $background;
+  border: $border;
+}
+
+@mixin circle-radius($width, $border, $radius: 50) {
+  width: $width;
+  height: $width;
+  border: $border;
+  border-radius: $radius;
+}

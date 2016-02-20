@@ -1,0 +1,43 @@
+body {
+  font-family: $base-font;
+  background: $primary-background-color;
+  font-weight: 200;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.app {
+  $max-width: 300px;
+  $min-height: 350px;
+
+  background-color: $primary-foreground-color;
+  border-radius: $base-radius;
+  box-shadow: $floating-2-shadow;
+  color: $primary-accent-color;
+  margin: $spacing-4 auto;
+  max-width: $max-width;
+  min-height: $min-height;
+  width: 100%;
+
+  h1,
+  h2,
+  h3 {
+    font-weight: 400;
+    text-align: center;
+  }
+
+  input {
+    margin: $spacing-1;
+  }
+}
+
+.header {
+  background-color: $primary-accent-color;
+  border-top-left-radius: $base-radius;
+  border-top-right-radius: $base-radius;
+  color: $base-white;
+  padding: $spacing-2;
+}

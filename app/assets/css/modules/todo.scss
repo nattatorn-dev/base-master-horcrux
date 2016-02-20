@@ -1,0 +1,31 @@
+.todo-item {
+  $transition-property: color;
+  $transition-duration: 200ms;
+
+  color: $primary-accent-color;
+  transition: $transition-property $transition-duration $ease-in-out;
+
+  &--is-completed {
+    text-decoration: line-through;
+    color: $theme-toggled;
+    transition: $transition-property $transition-duration $ease-in-out;
+  }
+}
+
+.todo-list {
+  list-style-type: none;
+  margin-bottom: 10px;
+  padding: $spacing-2;
+
+  button {
+    margin-right: 15px;
+  }
+}
+
+.historyControls {
+  padding: 5px;
+  text-align: center;
+  border: solid 1px;
+  border-radius: 10px;
+  margin: 25px;
+}

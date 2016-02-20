@@ -1,0 +1,24 @@
+// Timing Functions
+$ease-in-out: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+
+// Borders
+$base-border-width: 1px;
+$border-width-2: 2px;
+$base-radius: 4px;
+$default-border-style: solid;
+$default-border: $base-border-width $default-border-style;
+
+// Elevation
+$floating-2-shadow:
+  0 1px 60px rgba($primary-shadow-color, 0.25),
+  0 0 3px rgba($primary-shadow-color, 0.1)
+;
+
+// Spacing
+$spacing-base: 4px;
+$spacing-multiplier: 2;
+
+$spacing-1: $spacing-base * $spacing-multiplier;
+$spacing-2: $spacing-1 * $spacing-multiplier;
+$spacing-3: $spacing-2 * $spacing-multiplier;
+$spacing-4: $spacing-3 * $spacing-multiplier;
