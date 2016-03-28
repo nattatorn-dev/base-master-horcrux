@@ -1,7 +1,7 @@
 {
   "name": "base-master",
   "version": "1.0.0",
-  "description": "",
+  "description": "base",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --hot --progress",
